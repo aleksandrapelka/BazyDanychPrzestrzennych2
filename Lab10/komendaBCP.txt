@@ -1,0 +1,4 @@
+﻿
+bcp lab10_customers.dbo.customers_404407 format nul -S "LAPTOP-1CCFHBLU\SQL2022" -U sa -P xxxx -x -c -f C:\Users\48692\Desktop\projekt\FormatFile.fmt -t, -T
+
+bcp lab10_customers.dbo.customers_404407 in "C:\Users\48692\Desktop\projekt\Processing\InternetSales_new.csv" -S "LAPTOP-1CCFHBLU\SQL2022" -U sa -P xxxx -f C:\Users\48692\Desktop\projekt\FormatFile.fmt -t, -F 2
